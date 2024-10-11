@@ -34,9 +34,10 @@ sudo docker run hello-world
 ## Run Redis Stack on Docker 
 To run redis-stack  run:
 ```bash
-docker run -p 6379:6379 --name redis-stack -e REDIS_ARGS="--requirepass redis-stack" redis/redis-stack:latest
+docker run -d -p 6379:6379 --name redis-stack -e REDIS_ARGS="--requirepass redis-stack" redis/redis-stack-server:latest
 ```
 * you can replace your **password** with "redis-stack", and also can change **name** or **port**.
+* if you need **RedisInsight** replace **redis/redis-stack-server** with **redis/redis-stack**
 <br/>
 
 To **verify** that Redis is running correctly, use the following command:
