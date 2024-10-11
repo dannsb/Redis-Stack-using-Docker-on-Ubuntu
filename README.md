@@ -48,5 +48,5 @@ docker ps
 
 ### More resources
 if you want to read full documentaion see below links:\
-https://docs.docker.com/engine/install/ubuntu/\
+https://docs.docker.com/engine/install/ubuntu/<br/>
 https://hub.docker.com/r/redis/redis-stack
